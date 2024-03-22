@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   experimental: {
     componentIslands: {
-      selectiveClient: 'deep'
+      selectiveClient: true
     }
   }
 })
